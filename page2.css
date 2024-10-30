@@ -1,0 +1,179 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    background-image: url('pic2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(53, 66, 74, 0.9); 
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #e8491d;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#listManager {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#newListName {
+    width: 70%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+#newListName:focus {
+    border-color: #e8491d;
+    outline: none;
+}
+
+#createListBtn {
+    background-color: #35424a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#createListBtn:hover {
+    background-color: #e8491d;
+}
+
+/* Favorite Lists Styles */
+.favorite-list {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #35424a;
+}
+
+.favorite-list button {
+    background-color: #e8491d;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 5px;
+    transition: background-color 0.3s;
+}
+
+.favorite-list button:hover {
+    background-color: #35424a;
+}
+
+.favorite-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.favorite-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.favorite-list li:last-child {
+    border-bottom: none;
+}
+
+.favorite-list li button {
+    background-color: #35424a;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+.favorite-list li button:hover {
+    background-color: #e8491d;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgba(53, 66, 74, 0.9); 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Utility Class */
+.hidden {
+    display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #newListName {
+        width: 100%;
+    }
+
+    header nav a {
+        font-size: 16px;
+    }
+}

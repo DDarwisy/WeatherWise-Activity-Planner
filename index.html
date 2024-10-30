@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outdoor Activity Planner</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="favourite.html">Favourite</a></li>
+        <li><a href="checklist.html">Checklist</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+        <h1>WeatherWise Activity Planner</h1>
+        <h2>Plan Your Next Adventure</h2>
+        <select id="activityType">
+          <option value="hiking">Hiking</option>
+          <option value="snorkeling">Snorkeling</option>
+        </select>
+        <input type="text" id="stateInput" placeholder="Enter state (eg:Malacca)">
+        <button id="searchBtn">Search</button>
+
+        <div id="placesList"></div>
+        <div id="weatherForecast" class="hidden"></div>
+
+        <!-- Modal will be dynamically inserted here -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WeatherWise Activity Planner. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

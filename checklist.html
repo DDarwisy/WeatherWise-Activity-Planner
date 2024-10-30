@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiking Checklist</title>
+  <link rel="stylesheet" href="page3.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="favourite.html">Favourite</a></li>
+                <li><a href="checklist.html">Checklist</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Personal Checklist</h1>
+
+        <div class="form-container">
+            <input type="text" id="fileName" placeholder="Enter checklist name" />
+            <textarea id="fileContents" placeholder="Enter equipment list..."></textarea>
+            
+            <div class="button-group">
+                <button id="btnCreate">Create</button><br>
+                <button id="btnUpdate">Update</button><br>
+                <button id="btnDelete">Delete</button>
+            </div>
+        </div>
+
+        <div id="listContainer">
+            <h2>Saved Checklists</h2>
+            <ul id="checklistDisplay"></ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WeatherWise Activity Planner. All rights reserved.</p>
+    </footer>
+
+    <script src="checklist.js"></script>
+</body>
+</html>
