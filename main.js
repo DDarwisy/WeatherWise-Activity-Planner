@@ -17,8 +17,8 @@ const hikingPlaces = {
   ],
   "Kuala Lumpur": [
     { name: "Bukit Gasing", location: "Kuala Lumpur" },
-    { name: "Bukit Tabur (East & West)", location: "KL" },
-    { name: "KL Forest Eco Park", location: "KL" }
+    { name: "Bukit Tabur (East & West)", location: "Kuala Lumpur" },
+    { name: "KL Forest Eco Park", location: "Kuala Lumpur" }
   ],
   Malacca: [
     { name: "Bukit Batu Lebah", location: "Alor Gajah" },
@@ -33,12 +33,12 @@ const hikingPlaces = {
   Pahang: [
     { name: "Gunung Tahan", location: "Kuala Tahan" },
     { name: "Cameron Highlands Mossy Forest", location: "Cameron Highlands" },
-    { name: "Fraser's Hill Pine Tree Trail", location: "Fraser's Hill" }
+    { name: "Fraser's Hill Pine Tree Trail", location: "Raub" }
   ],
   Penang: [
-    { name: "Penang Hill", location: "Georgetown" },
+    { name: "Penang Hill", location: "George Town" },
     { name: "Bukit Mertajam Recreational Forest", location: "Bukit Mertajam" },
-    { name: "Teluk Bahang National Park", location: "Georgetown" }
+    { name: "Teluk Bahang National Park", location: "George Town" }
   ],
   Perak: [
     { name: "Gunung Korbu", location: "Kinta" },
@@ -88,20 +88,20 @@ const snorkelingPlaces = {
     { name: "Pulau Undan", location: "Melaka" }
   ],
   Pahang: [
-    { name: "Pulau Tioman", location: "Tioman Island" }
+    { name: "Pulau Tioman", location: "Rompin" }
   ],
   Penang: [
-    { name: "Pulau Kendi", location: "Off Penang Island" }
+    { name: "Pulau Kendi", location: "Penang" }
   ],
   Perak: [
     { name: "Pulau Pangkor", location: "Pangkor Island" }
   ],
   Selangor: [
-    { name: "Pulau Ketam", location: "Off the coast of Port Klang" }
+    { name: "Pulau Ketam", location: "Port Klang" }
   ],
   Terengganu: [
-    { name: "Pulau Redang", location: "Redang Island" },
-    { name: "Pulau Perhentian", location: "Perhentian Island" },
+    { name: "Pulau Redang", location: "Kuala Nerus" },
+    { name: "Pulau Perhentian", location: "Besut" },
     { name: "Pulau Kapas", location: "Marang" }
   ],
   Sabah: [
